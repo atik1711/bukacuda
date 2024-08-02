@@ -1,0 +1,76 @@
+/* hero section */
+* {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+}
+
+.border {
+    border: 2px solid transparent;
+}
+
+.border:hover {
+    border: 2px solid red;
+}
+
+.box {
+    width:auto;
+    height:350px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: flex-end;
+}
+
+.box-img {
+    background-image: url("exmp_1.jpg");
+    height: 150px;
+    width: 375px;
+    background-size: cover;
+}
+
+/*-------------------------box2-------------------------------*/
+
+.box2 {
+    height: 200px;
+    width: auto;
+    display: flex;
+    justify-content:center;
+    padding-top: 4px;
+
+}
+
+.box3 {
+    width: 620px;
+    height: 43px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.search-select {
+    width:50px;
+    padding-left: 2px;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+
+.search-input {
+    width:520px;
+    padding-left: 10px;
+    border: none;
+    font-size: 1rem;
+}
+
+.search-batton {
+    background-color: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
