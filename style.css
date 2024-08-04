@@ -1,0 +1,137 @@
+* {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    border: border-box;
+}
+.border {
+    border: .2px solid transparent;
+}
+.border:hover {
+    border: .2px solid red;
+}
+body {
+    background-color: rgb(0, 0, 0);
+}
+.nav {
+  width: auto;
+  height: 25px;
+  width: 98%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  background-color: rgb(113, 114, 116);
+}
+.bars {
+    width: 25px;
+    height: 25px;
+    background-color: rgb(105, 103, 103);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.web {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(112, 116, 116);
+}
+#xnxx {
+    width: 50px;
+    height: 20px;
+    background-size: cover;
+    margin-left: 5px;
+}
+#xhamster {
+    width: 50px;
+    height: 20px;
+    background-size: cover;
+    margin-left: 5px;
+    background-color: #ffffff
+}
+#pronhub {
+    width: 50px;
+    height: 20px;
+    background-size: cover;
+    margin-left: 5px;
+}
+#cum4k {
+    width: 50px;
+    height: 20px;
+    background-size: cover;
+    margin-left: 5px;
+    background-color: black;
+}
+#brazzers {
+    width: 50px;
+    height: 20px;
+    background-size: cover;
+    margin-left: 5px;
+}
+
+/*----------------------------box------------------------------*/
+
+.box {
+    height: 236px;
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+}
+.img {
+    width: 237px;
+    height: 94px;
+    background-size: cover;
+    background-image: url(mn/bukacuda.png);
+}
+
+/*---------------------------box2--------------------------------*/
+
+.box2 {
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content:center;
+    padding-top: 10px;
+
+}
+
+.search-box {
+    width: 65%;
+    height: 30px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.search-select {
+    width:50px;
+    padding-left: 5px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-size: 15px;
+    background-color: white;
+}
+
+.search-input {
+    width:520px;
+    padding-left: 10px;
+    border: none;
+    font-size: 16px;
+}
+
+.search-batton {
+    background-color: white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
