@@ -1,0 +1,207 @@
+* {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    border: border-box;
+}
+.border {
+    border: 2px solid transparent;
+    
+}
+
+.bukacoda:hover {
+    border: 2px solid red;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+/*------------------------------nav-------------------------*/
+
+.nav {
+  height: 25px;
+  display: flex;
+  align-items: center;
+  background-color: rgb(113, 114, 116);
+}
+
+.bars {
+    width: 25px;
+    height: 25px;
+    background-color: rgb(105, 103, 103);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 15px; 
+}
+
+.a1 {display: flex;}
+.a2 {display: flex;}
+.a3 {display: flex;}
+.a4 {display: flex;}
+.a5 {display: flex;}
+
+.xn {
+    width: 50px;
+    margin-left: 5px;
+    background-color: #000092;
+}
+.xh {
+    width: 50px;
+    background-color: aliceblue;
+    margin-left: 5px;
+}
+.ph {
+    width: 53px;
+    margin-left: 5px;
+}
+.c4 {
+    width: 53px;
+    margin-left: 5px;
+}
+.bz {
+    width: 53px;
+    height: 33px;
+    margin-left: 5px;
+}
+
+/*----------------------------box------------------------------*/
+
+.box-img {
+    height: 236px;
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+}
+
+.bukacoda {
+    width: 150px;
+    padding: 5px;
+}
+
+/*---------------------------box2--------------------------------*/
+
+.search-box {
+    height: 30px;
+    display: flex;
+    justify-content:center;
+    padding-top: 10px;
+
+}
+
+.search-select {
+    width: 42px;
+    padding-left: 5px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-size: 15px;
+    background-color: white;
+}
+
+.search-input {
+    padding-left: 10px;
+    outline: none;
+}
+
+.search-batton {
+    width: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+
+.box-name {
+    height: 30px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 12px;
+    /* justify-content: space-evenly; */
+    flex-wrap: wrap;
+}
+
+.Black-Blossom {
+    margin: 5px;
+    padding: 5px;
+    color: white;
+    border: 1px solid white;
+    text-decoration-line: none;
+}
+
+.Eva-Elfie {
+    margin: 5px;
+    padding: 5px;
+    color: white;
+    border: 1px solid white;
+    text-decoration-line: none;
+}
+.Coco-Lovelock {
+    margin: 5px;
+    padding: 5px;
+    color: white;
+    border: 1px solid white;
+    text-decoration-line: none;
+}
+.Bella-Gray {
+    margin: 5px;
+    padding: 5px;
+    color: white;
+    border: 1px solid white;
+    text-decoration-line: none;
+}
+.Alyx-Star {
+    margin: 5px;
+    padding: 5px;
+    color: white;
+    border: 1px solid white;
+    text-decoration-line: none;
+}
+
+@media (min-width: 480px) {
+    .search-input {
+        width: 250px;
+    }
+}
+
+@media (min-width: 720px) {
+    .nav {
+        height: 33px;
+    }
+    .bars {
+        width: 33px;
+        height: 33px;
+        font-size: 23px;
+    }
+    .xn {
+        width: 70px;
+    }
+    .xh {
+        width: 70px;
+    }
+    .ph {
+        width: 70px;
+    }
+    .c4 {
+        width: 70px;
+    }
+    .bz {
+        width: 70px;
+        height: 50px;
+    }
+    .search-input {
+        width: 400px;
+    }
+
+    .bukacoda {
+        width: 250px;
+    }
+}
